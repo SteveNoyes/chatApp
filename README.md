@@ -44,31 +44,16 @@ Users should be able to:
 
 ### Featured Section
 
-  Form input on error display ! and message 
-
-Provided are code samples of areas of highlight.
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
 ```
 
-I dislike that this width is 101 to fit in with the rest of the form. But I am unsure why it is not the same length as the other inputs set at 100% width.
 ```css
-/* Form Submit */
 
-.submitBtn {
-  width: 101%;
-  margin-top: 1rem;
-  color: var(--lite);
-  background-color: var(--mountainMeadow);
-  box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
-}
 ```
 
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 ```
 
 ### Useful resources

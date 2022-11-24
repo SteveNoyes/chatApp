@@ -42,4 +42,46 @@
 body {
   font-family: 'Rubik', sans-serif, monospace;
   font-size: 16px;
+  background-color: var(--white);
+}
+
+.aPurpleThingToTheSide {
+  
+
+  display: none;
+
+
+
+  height: 65vh;
+  width: 50%;
+  border-radius: 0 0 100% 0;
+  background: linear-gradient(var(--light-magenta), var(--light-violet));
+}
+
+.phoneCard {
+  border: 1px solid red;
+  width: 70%;
+  margin:auto;
+  margin-top: 4rem;
+  border-radius: 35px;
+}
+
+.earBlank {
+  width: 40%;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 0 0 15px 15px;
+  margin: auto;
+}
+
+.outlineCard {
+  border: 1px solid red;
+  border-radius: 25px;
+  margin: .7rem;
+  margin-top: -20px;
+}
+
+.callerPhoto {
+  border-radius: 50%;
+  border: 2px solid red;
 }

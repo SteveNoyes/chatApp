@@ -19,6 +19,8 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - **Bonus**: See the chat interface animate on the initial load
 
+- But how is this a chat app. More like Frontend Misnomer. **Bonus** if this made sense.
+
 ### Screenshot
 
 ![](./screenshot.jpg)
@@ -60,7 +62,7 @@ Users should be able to:
 
 - [Font Awesome CDN](https://cdnjs.com/libraries/font-awesome) - Helpful in making this more readable. 
 
-- [email input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Linear Gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Box shadow for button and div sections. 
 

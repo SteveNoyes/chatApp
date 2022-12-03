@@ -20,7 +20,7 @@ Users should be able to:
 
 - **Bonus**: See the chat interface animate on the initial load
 
-- But how is this a chat app. More like Frontend Misnomer. **Bonus** if this made sense.
+- But how is this a chat app. More like Frontend Misnomer...
 
 ### Screenshot
 

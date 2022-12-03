@@ -46,7 +46,6 @@ body {
 }
 
 .aPurpleThingToTheSide {
-  /* display: none; */
   position: fixed;
   top: -10%;
   left: -50%;
@@ -83,15 +82,46 @@ body {
   background-color: var(--light-grayish-violet);
 }
 
+.infoHeader {
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(to left, var(--light-magenta), var(--light-violet));
+  color: var(--white);
+}
+
+.infoHeader .fa-chevron-left {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .callerPhoto {
   border-radius: 50%;
-  border: 2px solid red;
+  border: 2px solid var(--white);
+  margin-right: 1rem;
+}
+
+.nameStatus p {
+  padding-top: .4rem;
+  font-size: 12px;
+  margin-right: 6rem;
 }
 
 .bookingSection {
   z-index: 30;
+  text-align: center;
 }
 
 .attribution {
   z-index: 40;
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: black;
 }

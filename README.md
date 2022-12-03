@@ -60,6 +60,8 @@ Users should be able to:
 
 ### Useful resources
 
+- [background position fixed](https://www.w3schools.com/css/css_positioning.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward. 
+
 - [Font Awesome CDN](https://cdnjs.com/libraries/font-awesome) - Helpful in making this more readable. 
 
 - [Linear Gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.

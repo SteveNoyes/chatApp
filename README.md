@@ -17,6 +17,7 @@
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
+
 - **Bonus**: See the chat interface animate on the initial load
 
 - But how is this a chat app. More like Frontend Misnomer. **Bonus** if this made sense.

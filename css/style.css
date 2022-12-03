@@ -7,7 +7,8 @@
   /* Primary */
   /* Text */
   /* (sub-heading at the top of the app UI) */
-  --pale-violet: hsl(276, 100%, 81%);
+  /* --pale-violet: hsl(276, 100%, 81%); */
+  --pale-violet: rgb(216, 158, 255, 0.2);
   /* (chat on the left) */
   --moderate-violet: hsl(276, 55%, 52%);
   /* (chat on the right) */
@@ -46,7 +47,7 @@ body {
 }
 
 .aPurpleThingToTheSide {
-  position: fixed;
+  position: absolute;
   top: -10%;
   left: -50%;
   z-index: 10; 
@@ -62,7 +63,7 @@ body {
   margin:auto;
   margin-top: 4rem;
   border-radius: 35px;
-  background-color: white;
+  background-color: var(--white);
   z-index: 15;
 }
 
@@ -83,7 +84,7 @@ body {
 }
 
 .infoHeader {
-  border-radius: 25px 25px 0 0;
+  border-radius: 25px 25px 6px 6px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -91,6 +92,7 @@ body {
   padding-bottom: 1rem;
   background: linear-gradient(to left, var(--light-magenta), var(--light-violet));
   color: var(--white);
+  margin-bottom: 1rem;
 }
 
 .infoHeader .fa-chevron-left {
@@ -104,10 +106,56 @@ body {
   margin-right: 1rem;
 }
 
+.nameStatus { 
+  margin-right: 5rem;
+}
+
 .nameStatus p {
   padding-top: .4rem;
   font-size: 12px;
-  margin-right: 6rem;
+}
+
+.leftChat {
+  width: 55%;
+  border-radius: 18px 18px 18px 6px;
+  padding: .5rem;
+  margin-left: .5rem;
+  margin-bottom: .5rem;
+  color: var(--moderate-violet);
+  background-color: var(--pale-violet);
+}
+
+.rightChat {
+  background-color: var(--white);
+  border-radius: 18px 18px 6px 18px;
+  width: 55%;
+  position: relative;
+  float: right;
+  padding: .5rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+
+.rightChatBottom {
+  margin-bottom: 2rem;
+  /* 41 works but I want it to be 42 so bad */
+  width: 41%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.dogs {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.dog {
+  margin-right: .5rem;
+  border-radius: 10px;
 }
 
 .bookingSection {

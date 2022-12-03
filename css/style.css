@@ -34,10 +34,15 @@
 
 /* Font Weights: 400, 500, 700 */
 
+* {
+  position: relative;
+}
+
 body {
   font-family: 'Rubik', sans-serif, monospace;
   font-size: 16px;
-  background-color: var(--white);
+  background-color: var(--light-grayish-violet);
+  z-index: 5;
 }
 
 .aPurpleThingToTheSide {
@@ -45,7 +50,7 @@ body {
   position: fixed;
   top: -10%;
   left: -50%;
-  z-index: -42; 
+  z-index: 10; 
   height: 90vh;
   width: 100%;
   border-radius: 0 0 60% 60%;
@@ -53,29 +58,40 @@ body {
 }
 
 .phoneCard {
-  border: 1px solid red;
+  border: 1px solid white;
   width: 70%;
   margin:auto;
   margin-top: 4rem;
   border-radius: 35px;
+  background-color: white;
+  z-index: 15;
 }
 
 .earBlank {
   width: 40%;
   height: 30px;
-  border: 1px solid red;
   border-radius: 0 0 18px 18px;
   margin: auto;
+  background-color: white;
+  z-index: 20;
 }
 
 .outlineCard {
-  border: 1px solid red;
   border-radius: 25px;
   margin: .7rem;
   margin-top: -20px;
+  background-color: var(--light-grayish-violet);
 }
 
 .callerPhoto {
   border-radius: 50%;
   border: 2px solid red;
+}
+
+.bookingSection {
+  z-index: 30;
+}
+
+.attribution {
+  z-index: 40;
 }

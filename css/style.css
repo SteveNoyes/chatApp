@@ -158,6 +158,19 @@ body {
   border-radius: 10px;
 }
 
+.leftChatOffer {
+  display: flex;
+  width: 70%;
+  border-radius: 18px 18px 18px 6px;
+  padding: .8rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, var(--light-magenta), var(--light-violet));
+}
+
+.leftChatOffer i {
+  color: var(--very-light-magenta);
+}
+
 .bookingSection {
   z-index: 30;
   text-align: center;

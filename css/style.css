@@ -43,19 +43,30 @@ body {
 }
 
 main {
-  padding-top: 1rem;
+  padding-top: 4rem;
 }
 
 .aPurpleThingToTheSide {
   position: absolute;
-  top: -10%;
-  left: -50%;
+  top: -1px;
+  right: 50%;
   z-index: 10; 
   height: 90vh;
-  width: 100%;
+  width: 500px;
   border-radius: 0 0 60% 60%;
   background: linear-gradient(var(--light-magenta), var(--light-violet));
 }
+
+/* .aPurpleThingToTheSide {
+  position: absolute;
+  top: 10;
+  left: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 500px;
+  border-radius: 0 0 300px 300px;
+  background: linear-gradient(var(--light-magenta), var(--light-violet));
+} */
 
 .phoneCard {
   border: 1px solid white;
@@ -248,16 +259,18 @@ main {
 
 /* Media Query */
 /* Desktop: 1440px */
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   .aPurpleThingToTheSide {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10; 
-    height: 100vh;
     width: 500px;
-    border-radius: 0 0 25% 25%;
-    background: linear-gradient(var(--light-magenta), var(--light-violet));
+    border-radius: 0 0 300px 300px;
+  }
+
+  .divider {
+    display: flex;
   }
 
 }

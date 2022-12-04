@@ -77,6 +77,10 @@ Users should be able to:
 
 - [z index setting position](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index) - None of my z indexs were working (albut the negative one) until setting the position.
 
+- [input area border on focus](https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
+
+
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)

@@ -137,7 +137,7 @@ body {
 }
 
 .rightChatBottom {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   /* 41 works but I want it to be 42 so bad */
   width: 41%;
 }
@@ -147,7 +147,7 @@ body {
 }
 
 .dogs {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: end;
@@ -165,10 +165,21 @@ body {
   padding: .8rem;
   margin-bottom: 1rem;
   background: linear-gradient(to right, var(--light-magenta), var(--light-violet));
+  color: var(--white);
+  margin-left: .5rem;
 }
 
 .leftChatOffer i {
   color: var(--very-light-magenta);
+  margin-right: 1rem;
+}
+
+.walkOffer0 {
+  margin-right: 2rem;
+}
+
+.walkOffer1 {
+  margin-right: 4rem;
 }
 
 .bookingSection {

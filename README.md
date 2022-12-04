@@ -75,7 +75,7 @@ Users should be able to:
 
 - [z index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) - How to alter the placeholder text inside of HTML forms. 
 
-- [z index setting position](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index) - None of my z indexs were working (albut the negative one)
+- [z index setting position](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index) - None of my z indexs were working (albut the negative one) until setting the position.
 
 ## Author
 

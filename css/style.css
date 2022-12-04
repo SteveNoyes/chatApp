@@ -68,6 +68,15 @@ main {
   background: linear-gradient(var(--light-magenta), var(--light-violet));
 } */
 
+
+
+
+
+
+
+
+
+
 .phoneCard {
   border: 1px solid white;
   width: 350px;
@@ -93,6 +102,12 @@ main {
   margin-top: -20px;
   background-color: var(--light-grayish-violet);
 }
+
+
+
+
+
+
 
 .infoHeader {
   border-radius: 25px 25px 6px 6px;
@@ -134,6 +149,20 @@ main {
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .leftChat {
   width: 55%;
   border-radius: 18px 18px 18px 6px;
@@ -162,9 +191,22 @@ main {
   width: 41%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .clearfix {
   overflow: auto;
 }
+
+
 
 .dogs {
   margin-top: 1.5rem;
@@ -177,6 +219,13 @@ main {
   margin-right: .5rem;
   border-radius: 10px;
 }
+
+
+
+
+
+
+
 
 .leftChatOffer {
   display: flex;
@@ -194,6 +243,14 @@ main {
   margin-right: 1rem;
 }
 
+
+
+
+
+
+
+
+
 .walkOffer0 {
   margin-right: 2rem;
 }
@@ -201,6 +258,12 @@ main {
 .walkOffer1 {
   margin-right: 4rem;
 }
+
+
+
+
+
+
 
 .messageChatBar input {
   border-radius: 25px;
@@ -227,6 +290,22 @@ main {
 .messageChatBar i:hover {
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bookingSection {
   z-index: 30;
@@ -260,6 +339,11 @@ main {
 /* Media Query */
 /* Desktop: 1440px */
 @media (min-width: 1440px) {
+
+  * {
+    border: 1px solid red!important;
+  }
+
   .aPurpleThingToTheSide {
     position: absolute;
     top: 0;
@@ -271,6 +355,15 @@ main {
 
   .divider {
     display: flex;
+  }
+
+  .bookingSection {
+    width: 40%;
+
+  }
+
+  .phoneCard {
+    margin: 0 0 0 10rem;
   }
 
 }

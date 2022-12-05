@@ -6,7 +6,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Featured Section](#featured-section)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -18,22 +17,18 @@ Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 
-- **Bonus**: See the chat interface animate on the initial load
-
-- But how is this a chat app. More like Frontend Misnomer...
-
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/dog-image-1.jpg)
 
-![](./screenshot.jpg)
+![](./images/dog-image-2.jpg)
 
-![](./screenshot.jpg)
+![](./images/dog-image-3.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://pages.github.com/)
+- Solution URL: [GitHub Repo](https://github.com/SteveNoyes/chatApp)
+- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/chatApp/)
 
 ## My process
 
@@ -44,20 +39,6 @@ Users should be able to:
 - Flexbox
 - Vanilla JavaScript
 - Mobile-first workflow
-
-### Featured Section
-
-```html
-
-```
-
-```css
-
-```
-
-```js
-
-```
 
 ### Useful resources
 

@@ -58,26 +58,6 @@ main {
   background: linear-gradient(var(--light-magenta), var(--light-violet));
 }
 
-/* .aPurpleThingToTheSide {
-  position: absolute;
-  top: 10;
-  left: 0;
-  z-index: 10;
-  height: 100vh;
-  width: 500px;
-  border-radius: 0 0 300px 300px;
-  background: linear-gradient(var(--light-magenta), var(--light-violet));
-} */
-
-
-
-
-
-
-
-
-
-
 .phoneCard {
   font-size: 10px;
   border: 1px solid white;
@@ -104,12 +84,6 @@ main {
   margin-top: -20px;
   background-color: var(--light-grayish-violet);
 }
-
-
-
-
-
-
 
 .infoHeader {
   border-radius: 25px 25px 6px 6px;
@@ -156,20 +130,6 @@ main {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .leftChat {
   width: 49%;
   border-radius: 10px 10px 10px 2px;
@@ -201,15 +161,6 @@ main {
   margin-top: 6.3rem;
 }
 
-
-
-
-
-
-
-
-
-
 .clearfix {
   overflow: auto;
 }
@@ -225,13 +176,6 @@ main {
   margin-right: .5rem;
   border-radius: 10px;
 }
-
-
-
-
-
-
-
 
 .leftChatOffer {
   display: flex;
@@ -262,12 +206,6 @@ main {
   font-weight: 700;
 }
 
-
-
-
-
-
-
 .messageChatBar input {
   border-radius: 25px;
   border: none;
@@ -297,22 +235,6 @@ main {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bookingSection {
   z-index: 30;
   text-align: center;
@@ -329,6 +251,7 @@ main {
   margin: auto;
   line-height: 2rem;
   padding-bottom: 2rem;
+  color: var(--dark-grayish-violet);
 }
 
 .attribution {
@@ -346,10 +269,6 @@ main {
 /* Desktop: 1440px */
 @media (min-width: 1440px) {
 
-  * {
-    border: 1px solid red!important;
-  }
-
   main {
     padding-top: 6rem;
   }
@@ -366,12 +285,13 @@ main {
 
   .aGreyThingToTheOtherSide {
     position: absolute;
-    bottom: 0;
-    right: -90px;
+    bottom: -1;
+    right: -170px;
     height: 90vh;
     z-index: 11;
     width: 500px;
     border-radius: 300px 300px 0 0;
+    background-color: rgba(173, 173, 173, 0.1);
   }
 
   .divider {
@@ -387,11 +307,6 @@ main {
   .bookingSection h1 {
     margin-left: 4rem;
   }
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: center; */
 
   .phoneCard {
     margin: 0 0 0 20rem;
